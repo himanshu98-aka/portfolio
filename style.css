@@ -1,0 +1,150 @@
+/* Basic Setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0a0a0a; 
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.inner-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Nav Bar */
+.top-bar {
+    border-bottom: 2px solid #333;
+    padding-bottom: 30px;
+   
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 30px;
+}
+
+.menu a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    padding: 100px 0;
+}
+
+.badge {
+    background: #112211;
+    color: #4ade80;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid #1a331a;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.hero-text {
+    max-width: 600px;
+    color: #aaa;
+    font-size: 1.2rem;
+}
+
+/* Stats */
+.stats-row {
+    margin-top: 50px;
+    display: block; /* Simple block layout */
+}
+
+.stat-box {
+    display: inline-block;
+    width: 30%;
+}
+
+.stat-box h2 { margin: 0; font-size: 2.5rem; }
+.stat-box p { color: #666; font-size: 0.9rem; margin: 0; }
+
+/* Project Cards */
+.main-section { padding: px 0; }
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background: #111;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #222;
+}
+
+.tags span {
+    background: #222;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #888;
+}
+
+/* Buttons */
+.main-btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.center { text-align: center; }
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: #444;
+    border-top: 1px solid #222;
+}
+
+.project-links {
+    margin-top: 15px;
+}
+
+.project-btn {
+    display: inline-block;
+    padding: 6px 16px;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.project-btn:hover {
+    background: #111;
+    color: #fff;
+}
