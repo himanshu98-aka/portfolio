@@ -1,0 +1,12 @@
+portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   ├── heart-disease.png
+│   ├── student-predictor.png
+│   └── snap-to-pdf.png
+└── certificates/
+    ├── cert1.png
+    ├── cert2.png
+    └── cert3.png

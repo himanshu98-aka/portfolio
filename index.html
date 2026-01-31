@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Gaur — ML Engineer</title>
+    <meta name="description" content="Portfolio of Himanshu Gaur, a Machine Learning Engineer specializing in predictive modeling and end-to-end ML pipelines.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-fixed" id="bgFixed"></div>
+    <div class="bg-overlay"></div>
+
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">HG<span class="logo-dot"></span></a>
+            <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#credentials">Credentials</a></li>
+                <li><a href="#contact" class="nav-cta">Get in Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-inner">
+                <div class="hero-label">Machine Learning Engineer</div>
+                <h1 class="hero-title">
+                    Building intelligent<br>
+                    systems that <span class="hero-emphasis">learn</span>
+                </h1>
+                <p class="hero-desc">
+                    I design and deploy machine learning solutions that transform 
+                    raw data into actionable insights. Currently focused on 
+                    predictive modeling and end-to-end ML pipelines.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">85%+</span>
+                        <span class="stat-label">Avg. Model Accuracy</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">Production Models</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num">15+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+                <div class="hero-scroll">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">01</span>
+                    <h2 class="section-title">Selected Projects</h2>
+                </header>
+
+                <div class="projects">
+                    <article class="project">
+                        <div class="project-img">
+                            <img src="images/heart.png" alt="Heart Disease Classification">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-type">Healthcare ML</span>
+                                <span class="project-year">2026</span>
+                            </div>
+                            <h3 class="project-title">Heart Disease Classification</h3>
+                            <p class="project-desc">
+                                End-to-end machine learning pipeline for predicting cardiovascular 
+                                disease risk using patient medical attributes. Achieved 87% accuracy 
+                                with ensemble methods.
+                            </p>
+                            <div class="project-stack">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Pandas</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://himanshu98-aka-heart-disease-classification-hg.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+                                <a href="https://github.com/himanshu98-aka/Heart-Disease-Classification" target="_blank" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project project-reverse">
+                        <div class="project-img">
+                            <img src="images/student.png" alt="Student Performance Predictor">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-type">EdTech ML</span>
+                                <span class="project-year">2026</span>
+                            </div>
+                            <h3 class="project-title">Student Performance Predictor</h3>
+                            <p class="project-desc">
+                                Predictive model analyzing academic and demographic factors to 
+                                forecast student performance. Deployed as an interactive web 
+                                application for educators.
+                            </p>
+                            <div class="project-stack">
+                                <span>Machine Learning</span>
+                                <span>Python</span>
+                                <span>Feature Engineering</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://student-performance-predictor-by-hg.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+                                <a href="https://github.com/himanshu98-aka/Student-Performance-Predictor" target="_blank" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project">
+                        <div class="project-img">
+                            <img src="images/pdf.png" alt="Snap-To-PDF">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-type">Utility Tool</span>
+                                <span class="project-year">2026</span>
+                            </div>
+                            <h3 class="project-title">Snap-To-PDF</h3>
+                            <p class="project-desc">
+                                High-performance image to PDF converter with sub-3-second 
+                                processing time. Built with focus on user experience and 
+                                efficient file handling.
+                            </p>
+                            <div class="project-stack">
+                                <span>Streamlit</span>
+                                <span>Python</span>
+                                <span>PIL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://photos-to-pdf.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+                                <a href="https://github.com/himanshu98-aka/photos-to-pdf" target="_blank" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project project-reverse">
+                        <div class="project-img">
+                            <img src="images/data.png" alt="Dataset Insights Generator">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-type">Data Analysis Tool</span>
+                                <span class="project-year">2026</span>
+                            </div>
+                            <h3 class="project-title">Dataset Insights Generator</h3>
+                            <p class="project-desc">
+                                A web-based data science tool designed to streamline the initial stages of data exploration. 
+                                Transforms raw datasets into actionable intelligence through a simple, interactive dashboard.
+                            </p>
+                            <div class="project-stack">
+                                <span>Streamlit</span>
+                                <span>Python</span>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://data-insights-extractor-hg.streamlit.app/" target="_blank" class="project-link">Live Demo</a>
+                                <a href="https://github.com/himanshu98-aka/data-insights-extractor" target="_blank" class="project-link">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="about">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">02</span>
+                    <h2 class="section-title">About</h2>
+                </header>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="about-lead">
+                            I'm Himanshu Gaur, a machine learning engineer based in 
+                            Vrindavan, India. I specialize in building predictive models 
+                            and deploying ML solutions that solve real problems.
+                        </p>
+                        <p>
+                            Currently pursuing BCA at GLA University (2025-2028), I combine 
+                            academic foundations with hands-on project experience. My focus 
+                            is on healthcare ML, predictive analytics, and creating 
+                            accessible AI applications.
+                        </p>
+                        <p>
+                            I believe in clean code, reproducible experiments, and building 
+                            systems that are both accurate and interpretable.
+                        </p>
+                    </div>
+                    <div class="about-skills">
+                        <div class="skill-group">
+                            <h4>Languages</h4>
+                            <ul>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>JavaScript</li>
+                                <li>C</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h4>ML / Data</h4>
+                            <ul>
+                                <li>Scikit-learn</li>
+                                <li>Pandas</li>
+                                <li>NumPy</li>
+                                <li>Matplotlib</li>
+                            </ul>
+                        </div>
+                        <div class="skill-group">
+                            <h4>Tools</h4>
+                            <ul>
+                                <li>Streamlit</li>
+                                <li>Git</li>
+                                <li>Jupyter</li>
+                                <li>VS Code</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="learning-section">
+                    <h3>Currently Learning</h3>
+                    <div class="learning-items">
+                        <div class="learning-item">
+                            <span class="learning-icon">→</span>
+                            <span>Database Management System</span>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">→</span>
+                            <span>Machine Learning & Model Deployment</span>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">→</span>
+                            <span>Advanced Feature Engineering</span>
+                        </div>
+                        <div class="learning-item">
+                            <span class="learning-icon">→</span>
+                            <span>C Programming ( Logic Building) </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="credentials">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">03</span>
+                    <h2 class="section-title">Credentials</h2>
+                </header>
+
+                <div class="certs-grid">
+                    <div class="cert" onclick="openModal('certificates/python.png', 'Learn Python', 'Educative')">
+                        <div class="cert-img">
+                            <img src="certificates/python.png" alt="Learn Python">
+                        </div>
+                        <div class="cert-info">
+                            <h4>Python</h4>
+                            <p>Educative</p>
+                        </div>
+                    </div>
+
+                    <div class="cert" onclick="openModal('certificates/ML.png', 'Generative AI', 'Educative')">
+                        <div class="cert-img">
+                            <img src="certificates/ML.png" alt="Generative AI">
+                        </div>
+                        <div class="cert-info">
+                            <h4>Generative AI</h4>
+                            <p>Educative</p>
+                        </div>
+                    </div>
+
+                    <div class="cert" onclick="openModal('certificates/git.png', 'GitHub Basics', 'Simplilearn')">
+                        <div class="cert-img">
+                            <img src="certificates/git.png" alt="GitHub Basics">
+                        </div>
+                        <div class="cert-info">
+                            <h4>GitHub Basics</h4>
+                            <p>Simplilearn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <header class="section-header">
+                        <span class="section-label">04</span>
+                        <h2 class="section-title">Let's Connect</h2>
+                    </header>
+                    <p class="contact-desc">
+                        Open to freelance projects, collaborations, and interesting conversations 
+                        about machine learning and data science.
+                    </p>
+                    <a href="mailto:freelancinghimanshu@gmail.com" class="contact-email">
+                        freelancinghimanshu@gmail.com
+                    </a>
+                    <div class="contact-links">
+                        <a href="https://github.com/himanshu98-aka/" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/himanshu-gaur-ml/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p>© <span id="currentYear">2026</span> Himanshu Gaur</p>
+                <p>Vrindavan, India</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="certModal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <img id="modalImg" src="" alt="">
+            <div class="modal-info">
+                <h4 id="modalTitle"></h4>
+                <p id="modalIssuer"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
