@@ -6,7 +6,7 @@ I built this portfolio to showcase my projects, skills, and learning journey in 
 It is a simple static website made using HTML and CSS.
 
 ## 🔗 Live Website
-👉 https://himanshu98-aka.github.io/portfolio/
+👉 [Live Demo](https://himanshu98-aka.github.io/portfolio/)
 
 ---
 
@@ -16,6 +16,7 @@ The portfolio includes:
 - A brief introduction about me
 - My machine learning and data science projects
 - Technical skills I am currently working with
+- Certifications and credentials
 - Contact links
 
 This website reflects my current level as a student and will be updated as I learn and build more projects.
@@ -26,18 +27,20 @@ This website reflects my current level as a student and will be updated as I lea
 
 - HTML  
 - CSS  
+- JavaScript
 - GitHub Pages (for hosting)
 
-No frameworks are used. The goal was to keep it simple and easy to understand.
+No frameworks are used. The site features responsive navigation, certificate modals, and a parallax background effect using vanilla JavaScript.
 
 ---
 
 ## 📂 Projects Highlighted
 
 Some of the projects showcased on the website include:
-- Student Performance Predictor (Machine Learning)
-- Heart Disease Classification (Machine Learning)
-- Snap-To-PDF (Python + Streamlit utility)
+- **Student Performance Predictor** (Machine Learning)
+- **Heart Disease Classification** (Machine Learning)
+- **Snap-To-PDF** (Python + Streamlit utility)
+- **Dataset Insights Generator** (Data Analysis Tool)
 
 Each project focuses on practical learning and hands-on implementation.
 
@@ -68,7 +71,8 @@ This is a learning-focused portfolio, not a final or perfect one.
 
 If you want to connect or give feedback:
 - Email: freelancinghimanshu@gmail.com
-- GitHub: https://github.com/himanshu98-aka
+- GitHub: [himanshu98-aka](https://github.com/himanshu98-aka)
+- LinkedIn: https://www.linkedin.com/in/himanshu-gaur-ml/
 
 ---
 
