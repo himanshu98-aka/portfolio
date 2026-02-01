@@ -50,7 +50,6 @@ body {
     opacity: 0.8; /* Decreased transparency */
     background-color: var(--bg); /* Fallback */
     will-change: transform;
-    background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?auto=format&fit=crop&q=80');
 }
 
 .bg-overlay {

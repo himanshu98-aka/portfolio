@@ -48,13 +48,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Set current year in footer
 document.getElementById('currentYear').textContent = new Date().getFullYear();
-
-const bgFixed = document.getElementById('bgFixed');
-
-// Parallax Effect
-window.addEventListener('scroll', () => {
-    if (window.innerWidth > 768) {
-        const scrolled = window.scrollY;
-        bgFixed.style.transform = `translateY(${scrolled * 0.05}px)`;
-    }
-});
