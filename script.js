@@ -1,6 +1,12 @@
 function toggleNav() {
     const menu = document.getElementById('navMenu');
+    const toggleBtn = document.querySelector('.nav-toggle');
+    
     menu.classList.toggle('active');
+    toggleBtn.classList.toggle('active');
+    
+    // Prevent scrolling when menu is open
+    document.body.style.overflow = menu.classList.contains('active') ? 'hidden' : '';
 }
 
 function openModal(imgSrc, title, issuer, desc) {
@@ -26,7 +32,11 @@ function closeModal() {
 
 document.querySelectorAll('.nav-menu a').forEach(link => {
     link.addEventListener('click', () => {
-        document.getElementById('navMenu').classList.remove('active');
+        const menu = document.getElementById('navMenu');
+        const toggleBtn = document.querySelector('.nav-toggle');
+        menu.classList.remove('active');
+        if (toggleBtn) toggleBtn.classList.remove('active');
+        document.body.style.overflow = '';
     });
 });
 
@@ -48,3 +58,14 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Set current year in footer
 document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+// Close mobile menu on resize if open
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        const menu = document.getElementById('navMenu');
+        const toggleBtn = document.querySelector('.nav-toggle');
+        menu.classList.remove('active');
+        if (toggleBtn) toggleBtn.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});
