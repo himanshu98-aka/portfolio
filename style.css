@@ -803,6 +803,10 @@ body {
         padding: 100px 0 60px;
         min-height: auto;
     }
+
+    .bg-fixed {
+        transform: none !important;
+    }
 }
 
 @media (max-width: 480px) {

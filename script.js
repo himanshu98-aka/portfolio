@@ -53,6 +53,8 @@ const bgFixed = document.getElementById('bgFixed');
 
 // Parallax Effect
 window.addEventListener('scroll', () => {
-    const scrolled = window.scrollY;
-    bgFixed.style.transform = `translateY(${scrolled * 0.05}px)`;
+    if (window.innerWidth > 768) {
+        const scrolled = window.scrollY;
+        bgFixed.style.transform = `translateY(${scrolled * 0.05}px)`;
+    }
 });
