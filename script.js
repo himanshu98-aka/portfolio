@@ -3,15 +3,17 @@ function toggleNav() {
     menu.classList.toggle('active');
 }
 
-function openModal(imgSrc, title, issuer) {
+function openModal(imgSrc, title, issuer, desc) {
     const modal = document.getElementById('certModal');
     const modalImg = document.getElementById('modalImg');
     const modalTitle = document.getElementById('modalTitle');
     const modalIssuer = document.getElementById('modalIssuer');
+    const modalDesc = document.getElementById('modalDesc');
     
     modalImg.src = imgSrc;
     modalTitle.textContent = title;
     modalIssuer.textContent = issuer;
+    modalDesc.innerHTML = desc || '';
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }

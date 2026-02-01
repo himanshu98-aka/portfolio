@@ -274,33 +274,66 @@
                 </header>
 
                 <div class="certs-grid">
-                    <div class="cert" onclick="openModal('certificates/python.png', 'Learn Python', 'Educative')">
+                    <div class="cert" onclick="openModal('certificates/python.png', 'Learn Python', 'Educative', '<strong>Key Competencies:</strong><ul><li>Mastering core Python syntax, data structures, and control flow mechanisms.</li><li>Implementing object-oriented programming (OOP) principles for scalable code.</li><li>Utilizing Python libraries and modules for efficient problem-solving.</li></ul>')">
                         <div class="cert-img">
                             <img src="certificates/python.png" alt="Learn Python">
                         </div>
                         <div class="cert-info">
-                            <h4>Python</h4>
+                            <h4>Learn Python</h4>
                             <p>Educative</p>
                         </div>
                     </div>
 
-                    <div class="cert" onclick="openModal('certificates/ML.png', 'Generative AI', 'Educative')">
+                    <div class="cert" onclick="openModal('certificates/docker.png', 'Introduction to Docker and Kubernetes', 'NASSCOM Foundation', '<strong>Key Competencies:</strong><ul><li>Containerizing applications using Docker to ensure consistency across different computing environments.</li><li>Managing and scaling containerized applications using Kubernetes orchestration.</li><li>Understanding microservices architecture and CI/CD pipeline integration for modern software deployment.</li></ul>')">
                         <div class="cert-img">
-                            <img src="certificates/ML.png" alt="Generative AI">
+                            <img src="certificates/docker.png" alt="Introduction to Docker and Kubernetes">
                         </div>
                         <div class="cert-info">
-                            <h4>Generative AI</h4>
-                            <p>Educative</p>
+                            <h4>Introduction to Docker and Kubernetes</h4>
+                            <p>NASSCOM Foundation</p>
                         </div>
                     </div>
 
-                    <div class="cert" onclick="openModal('certificates/git.png', 'GitHub Basics', 'Simplilearn')">
+
+                    <div class="cert" onclick="openModal('certificates/git.png', 'GitHub Basics', 'Simplilearn', '<strong>Key Competencies:</strong><ul><li>Managing version control workflows using Git repositories and branches.</li><li>Collaborating on projects through pull requests and code reviews.</li><li>Resolving merge conflicts and maintaining clean commit histories.</li></ul>')">
                         <div class="cert-img">
                             <img src="certificates/git.png" alt="GitHub Basics">
                         </div>
                         <div class="cert-info">
                             <h4>GitHub Basics</h4>
                             <p>Simplilearn</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="cert" onclick="openModal('certificates/image.png', 'Machine Learning and Image Processing', 'NASSCOM Foundation', '<strong>Key Competencies:</strong><ul><li>Implementing predictive models and algorithms to analyze and interpret complex data.</li><li>Applying computer vision techniques to process, analyze, and extract meaningful information from digital images.</li><li>Developing end-to-end machine learning workflows, from data preprocessing to model evaluation.</li></ul>')">
+                        <div class="cert-img">
+                            <img src="certificates/image.png" alt="Machine Learning and Image Processing">
+                        </div>
+                        <div class="cert-info">
+                            <h4>Machine Learning and Image Processing</h4>
+                            <p>NASSCOM Foundation</p>
+                        </div>
+                    </div>
+
+                    <div class="cert" onclick="openModal('certificates/ML.png', 'Generative AI Handbook', 'Educative', '<strong>Key Competencies:</strong><ul><li>Understanding the architecture and capabilities of Large Language Models (LLMs).</li><li>Applying prompt engineering techniques to optimize model responses.</li><li>Exploring real-world use cases and ethical implications of Generative AI.</li></ul>')">
+                        <div class="cert-img">
+                            <img src="certificates/ML.png" alt="Generative AI Handbook">
+                        </div>
+                        <div class="cert-info">
+                            <h4>Generative AI Handbook</h4>
+                            <p>Educative</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="cert" onclick="openModal('certificates/html.png', 'HTML & CSS', 'NASSCOM Foundation', '<strong>Key Competencies:</strong><ul><li>Building the structural foundation of web pages using semantic HTML5.</li><li>Designing responsive and visually appealing user interfaces with CSS3, including layout techniques like Flexbox and Grid.</li><li>Ensuring cross-browser compatibility and mobile-first design principles.</li></ul>')">
+                        <div class="cert-img">
+                            <img src="certificates/html.png" alt="HTML & CSS">
+                        </div>
+                        <div class="cert-info">
+                            <h4>HTML & CSS</h4>
+                            <p>NASSCOM Foundation</p>
                         </div>
                     </div>
                 </div>
@@ -347,6 +380,7 @@
             <div class="modal-info">
                 <h4 id="modalTitle"></h4>
                 <p id="modalIssuer"></p>
+                <div id="modalDesc" class="modal-desc"></div>
             </div>
         </div>
     </div>
